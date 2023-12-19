@@ -2,12 +2,14 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Provider from "./Provider";
 import Appbar from "@/components/Appbar";
+import FormContacto from "@/components/FormContacto"
+import Projects from "@/components/Projects";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portafolio",
-  description: "Portafolio udd",
+  title: "Portafolio Rolando Valladares",
+  description: "Portafolio simple por Bootcamp FullStack UDD",
 };
 
 export default function RootLayout({ children }) {
@@ -16,7 +18,14 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Provider>
           <Appbar />
+
           {children}
+
+
+          <Projects />
+
+          <FormContacto />
+
         </Provider>
       </body>
     </html>

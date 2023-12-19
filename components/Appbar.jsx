@@ -27,7 +27,7 @@ const Appbar = () => {
   return (
     <Navbar>
       <NavbarBrand>
-        <p className="font-bold text-inherit">UDD</p>
+        <p className="font-bold text-inherit">RAVM</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         {links.map((link, i) => (
