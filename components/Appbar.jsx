@@ -12,15 +12,15 @@ const Appbar = () => {
   const links = [
     {
       nombre: "Acerca de mi",
-      href: "/about",
+      href: "#about",
     },
     {
       nombre: "Proyectos",
-      href: "/projects",
+      href: "#proyectos",
     },
     {
       nombre: "Contacto",
-      href: "/contacto",
+      href: "#seccion1",
     },
   ];
 

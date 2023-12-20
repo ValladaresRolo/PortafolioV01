@@ -4,6 +4,8 @@ import Provider from "./Provider";
 import Appbar from "@/components/Appbar";
 import FormContacto from "@/components/FormContacto"
 import Projects from "@/components/Projects";
+import Footer from "@/components/Footer";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +27,8 @@ export default function RootLayout({ children }) {
           <Projects />
 
           <FormContacto />
+          <Footer />
+
 
         </Provider>
       </body>
