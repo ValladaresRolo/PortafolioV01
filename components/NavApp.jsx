@@ -36,8 +36,10 @@ export default function NavApp() {
                     className="sm:hidden"
                 />
                 <NavbarBrand>
-                    <AcmeLogo />
-                    <p className="font-bold text-inherit ml-3"> RAVM</p>
+                    <Link color="foreground" href="#about" >
+                        <AcmeLogo />
+                        <p className="font-bold text-inherit ml-3"> RAVM</p>
+                    </Link>
                 </NavbarBrand>
             </NavbarContent>
 
