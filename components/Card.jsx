@@ -13,7 +13,7 @@ const Card = () => {
       </div>
       <div>
         <p className="text-lg">
-          Soy un desarrollador fullstack y multimedia que crea aplicaciones web con react, nodejs y firebase. Me apasiona el aprendizaje continuo y el desarrollo de soluciones tecnológicas para diversos sectores.
+          Soy un desarrollador fullstack y multimedia que crea aplicaciones web con Javascript, Express, React, Nodejs, Mongodb y Firebase. Me apasiona el aprendizaje continuo y el desarrollo de soluciones tecnológicas para diversos sectores.
         </p>
       </div>
       <div className="mt-5">

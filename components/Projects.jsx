@@ -6,6 +6,9 @@ const Projects = () => {
         <>
             <Divider className="my-4" id="proyectos" />
             <div className="grid md:grid-cols-1 lg:grid-cols-3 items-center ">
+
+
+
                 <CardProject />
             </div>
         </>
