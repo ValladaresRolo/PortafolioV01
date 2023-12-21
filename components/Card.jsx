@@ -20,7 +20,7 @@ const Card = () => {
 
         <Link href="https://res.cloudinary.com/dhghhzrkl/image/upload/v1703128877/portafolio/RValladares_o1ykwu.pdf" target="_blank">
           <Button radius="sm" className="bg-gradient-to-tr from-cyan-600 to-slate-950 text-white shadow-lg" endContent={<BsDownload fontSize={20} />}>
-            Button
+            Descargar CV
           </Button>
         </Link>
 

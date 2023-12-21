@@ -22,3 +22,7 @@ html ,body{
 h1{
     font-family: 'Manrope', sans-serif !important;
 }
+
+.hideLine
+{
+  display: hidden !important}
