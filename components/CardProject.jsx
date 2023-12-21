@@ -1,4 +1,8 @@
-import { Button, Image, Link } from "@nextui-org/react";
+import { Button, Image, Link, Divider } from "@nextui-org/react";
+import { RiGitRepositoryCommitsLine } from "react-icons/ri";
+import { GrDeploy } from "react-icons/gr";
+
+
 import React from "react";
 
 
@@ -59,13 +63,13 @@ const CardProject = () => {
 
       {
         infos.map((info, i) => (
-          < div key={i} className="flex flex-col justify-center items-center m-5 bg-lime-300 " >
+          < div key={i} className="flex flex-col  justify-center items-center m-5   " >
             <Image
               width={300}
               alt="NextUI hero Image"
               src={info.img}
             />
-            <div className="flex gap-5 mt-5 w-1/2">
+            <div className="flex gap-5 mt-5 px-3 max-w-xs">
               <p className="font-semibold text-sm text-gray-900">
                 {info.description}
               </p>
@@ -73,13 +77,24 @@ const CardProject = () => {
             <div className="flex gap-5 mt-5">
 
               <Link href={info.repository} target="_blank">
-                <Button color="primary">repositorio</Button>
+                <Button radius="sm" className="bg-gradient-to-tr from-cyan-600 to-slate-950 text-white shadow-lg" endContent={<RiGitRepositoryCommitsLine fontSize={20} />}>
+
+                  Repositorio</Button>
               </Link>
 
+
+
               <Link href={info.deploy} target="_blank">
-                <Button color="secondary">deploy</Button>
+                <Button radius="sm" className="bg-gradient-to-tr from-cyan-600 to-slate-950 text-white shadow-lg" endContent={<GrDeploy fontSize={20} />}>
+                  Deploy</Button>
               </Link>
+
+
+
+
             </div>
+
+            <Divider className="my-4" />
           </div >))
       }
 

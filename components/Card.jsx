@@ -5,7 +5,7 @@ import React from "react";
 
 const Card = () => {
   return (
-    <div className="flex flex-col px-20 sm:px-5 mb-20">
+    <div className="flex flex-col px-5 sm: mb-20">
       <div className="mb-5">
         <h2 className="text-3xl font-bold">
           Rolando Valladares, Rockeando con el código
