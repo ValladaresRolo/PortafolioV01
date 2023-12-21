@@ -6,6 +6,7 @@ import FormContacto from "@/components/FormContacto"
 import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
 import NavApp from "@/components/NavApp";
+import Contact from "@/components/Contact";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -27,7 +28,8 @@ export default function RootLayout({ children }) {
 
           <Projects />
 
-          <FormContacto />
+          <Contact />
+
           <Footer />
 
 

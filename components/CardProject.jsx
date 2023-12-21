@@ -94,7 +94,7 @@ const CardProject = () => {
 
             </div>
 
-            <Divider className="my-4" />
+            <Divider className="my-4 max-w-xs" />
           </div >))
       }
 
