@@ -5,6 +5,7 @@ import Appbar from "@/components/Appbar";
 import FormContacto from "@/components/FormContacto"
 import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
+import NavApp from "@/components/NavApp";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -19,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Provider>
-          <Appbar />
+          <NavApp />
 
           {children}
 

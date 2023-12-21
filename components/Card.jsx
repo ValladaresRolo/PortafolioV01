@@ -1,33 +1,30 @@
-import { Button } from "@nextui-org/react";
+import { Button, useButton } from "@nextui-org/react";
 
 import { BsDownload } from "react-icons/bs";
 import React from "react";
 
 const Card = () => {
   return (
-    <div className="flex flex-col px-20 sm:px-5">
+    <div className="flex flex-col px-20 sm:px-5 mb-20">
       <div className="mb-5">
         <h2 className="text-3xl font-bold">
-          Llevando ideas a la realidad con código
+          Rolando Valladares, Rockeando con el código
         </h2>
       </div>
       <div>
         <p className="text-lg">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae
-          numquam doloribus voluptates pariatur in dolore beatae id labore quis
-          ipsum optio excepturi aperiam consectetur, ut laborum, corporis,
-          veritatis quaerat sed.
+          Soy un desarrollador fullstack y multimedia que crea aplicaciones web con react, nodejs y firebase. Me apasiona el aprendizaje continuo y el desarrollo de soluciones tecnológicas para diversos sectores.
         </p>
       </div>
       <div className="mt-5">
-        <Button
-          color="primary"
-          className="py-7 px-5 text-base"
-          radius="lg"
-          endContent={<BsDownload fontSize={20} />}
-        >
-          Curriculum
+
+
+        <Button radius="sm" className="bg-gradient-to-tr from-cyan-600 to-slate-950 text-white shadow-lg" endContent={<BsDownload fontSize={20} />}>
+          Button
         </Button>
+
+
+
       </div>
     </div>
   );
